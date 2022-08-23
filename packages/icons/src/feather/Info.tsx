@@ -1,14 +1,9 @@
 import React, { FC } from 'react';
-import { ViewStyle } from 'react-native';
 import { Circle, Line, Svg } from 'react-native-svg';
 
-interface Props {
-	style?: ViewStyle;
-	size?: number;
-	color?: string;
-}
+import { IconProps } from '../types';
 
-export const InfoIcon: FC<Props> = ({
+export const InfoIcon: FC<IconProps> = ({
 	style,
 	size = 16,
 	color = '#666666',

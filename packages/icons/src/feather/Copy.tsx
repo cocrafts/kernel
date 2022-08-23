@@ -1,14 +1,13 @@
 import React, { FC } from 'react';
-import { ViewStyle } from 'react-native';
 import { Path, Rect, Svg } from 'react-native-svg';
 
-interface Props {
-	style?: ViewStyle;
-	size?: number;
-	color?: string;
-}
+import { IconProps } from '../types';
 
-export const CopyIcon: FC<Props> = ({ style, size, color }) => {
+export const CopyIcon: FC<IconProps> = ({
+	style,
+	size = 24,
+	color = '#666666',
+}) => {
 	return (
 		<Svg
 			style={style}
@@ -25,11 +24,6 @@ export const CopyIcon: FC<Props> = ({ style, size, color }) => {
 			<Path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
 		</Svg>
 	);
-};
-
-CopyIcon.defaultProps = {
-	size: 24,
-	color: 'white',
 };
 
 export default CopyIcon;
