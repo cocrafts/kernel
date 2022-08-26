@@ -1,5 +1,5 @@
 {
-	"extends": "@cocrafts/tsconfig/metacraft.json",
+	"extends": "@metacraft/tsconfig/application.json",
 	"include": ["index*.js", "src"],
 	"exclude": ["node_modules"]
 }

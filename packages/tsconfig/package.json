@@ -1,6 +1,10 @@
 {
-	"name": "@cocrafts/tsconfig",
-	"version": "0.0.0",
+	"name": "@metacraft/tsconfig",
+	"version": "0.0.10",
+	"author": "Metacraft Community",
 	"license": "MIT",
-	"main": "index.js"
+	"main": "index.js",
+	"scripts": {
+		"release": "npm publish --access public"
+	}
 }

@@ -7,14 +7,14 @@
 		"dev": "metacraft"
 	},
 	"dependencies": {
+		"@metacraft/icons": "*",
 		"@metacraft/ui": "^0.0.45",
 		"react": "^18.0.0",
 		"react-native-svg": "^13.0.0",
 		"valtio": "^1.6.4"
 	},
 	"devDependencies": {
-		"@cocrafts/tsconfig": "*",
-		"@cocrafts/icon": "*",
+		"@metacraft/tsconfig": "*",
 		"@types/react": "18.0.0",
 		"@types/react-native": "^0.69.5",
 		"babel-plugin-module-resolver": "^4.1.0",

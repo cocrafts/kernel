@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { featherIcons } from '@cocrafts/icon';
+import { featherIcons } from '@metacraft/icons';
 import { Text } from '@metacraft/ui';
 
 const { Info, Copy } = featherIcons;
