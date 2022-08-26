@@ -1,5 +1,5 @@
 {
-	"extends": "@cocrafts/tsconfig/react-native-library",
+	"extends": "@metacraft/tsconfig/react-native-library",
 	"include": ["."],
 	"exclude": ["dist", "build", "node_modules"],
 	"compilerOptions": {
