@@ -2,9 +2,12 @@
 	"name": "@metacraft/icons",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"version": "0.0.12",
+	"version": "0.0.19",
 	"author": "Metacraft Community",
 	"license": "MIT",
+	"files": [
+		"dist/"
+	],
 	"scripts": {
 		"build": "tsup src/index.tsx --format esm,cjs --dts --external react",
 		"dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
@@ -16,9 +19,9 @@
 		"react-native-svg": "^13.0.0"
 	},
 	"devDependencies": {
+		"@metacraft/tsconfig": "*",
 		"@types/react": "18",
 		"@types/react-native": "^0.69.5",
-		"@metacraft/tsconfig": "*",
 		"tsup": "^6.2.2",
 		"typescript": "^4.7.4"
 	}
