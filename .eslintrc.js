@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ['@metacraft'],
+	extends: ['@metacraft/eslint-config'],
 };
