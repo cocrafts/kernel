@@ -1,16 +1,23 @@
 import React, { FC } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { featherIcons } from '@metacraft/icons';
-import { Text } from '@metacraft/ui';
+import { featherIcons, stormIcons } from '@metacraft/icons';
 
-const { Info, Copy } = featherIcons;
+const { Info, Copy, ChevronUp, ChevronDown, ChevronLeft, ChevronRight } =
+	featherIcons;
+const { Dragon, StormGate, Flag } = stormIcons;
 
 export const AppContainer: FC = () => {
 	return (
 		<View style={styles.container}>
 			<Info />
 			<Copy />
-			<Text>AppContainer</Text>
+			<ChevronUp />
+			<ChevronDown />
+			<ChevronLeft />
+			<ChevronRight />
+			<StormGate />
+			<Dragon />
+			<Flag />
 		</View>
 	);
 };
@@ -18,5 +25,7 @@ export const AppContainer: FC = () => {
 export default AppContainer;
 
 const styles = StyleSheet.create({
-	container: {},
+	container: {
+		backgroundColor: 'red',
+	},
 });
