@@ -8,9 +8,13 @@ const web3Polyfills = (configs, { modules }) => {
 		https: require.resolve('https-browserify'),
 		os: require.resolve('os-browserify'),
 		url: require.resolve('url'),
+		process: require.resolve('process/browser'),
+		zlib: false,
+		fs: false,
+		path: false,
 	});
 	const plugins = {
-		process: 'process/browser',
+		process: require.resolve('process/browser'),
 		Buffer: ['buffer', 'Buffer'],
 	};
 
