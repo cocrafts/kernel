@@ -1,6 +1,6 @@
 {
 	"name": "@metacraft/tsconfig",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"author": "Metacraft Community",
 	"license": "MIT",
 	"main": "index.js",
